@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) {
+    
+
+    #cabecalho {
+        width: 500px;
+        margin: auto;
+        
+    }
+
+    main {
+
+    }
+}

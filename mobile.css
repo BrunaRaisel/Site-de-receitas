@@ -6,23 +6,83 @@
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif ;
+    box-sizing: border-box;
 }
 
-body {
+body, html {
     width: 100vw;
     height: 100vh;
 }
 
 /* cabecalho  */
-
-#cabecalho {
-    width: 100vw;
-    background-color: rgb(49, 30, 30);
-    padding: 20px;
-   
-    
+header {
+    width: 100%;
+    background-color: blueviolet;
+    height: 40px;
 }
 
 #pesquisa {
     display: none;
+}
+
+i {
+    margin-left: 12px;
+}
+
+img {
+    width: 140px;
+     position: relative;
+     top: 6px;  
+}
+
+#profile {
+    float: inline-end;
+    padding-right: 10px;
+    padding-top: 12px;
+}
+
+/* nav menu horizontal  */
+
+#menu-horizon {
+    margin: 8px 3px;
+    display: flex;
+    
+}
+
+#menu-horizon a {
+    font-size: clamp(6px, 2.5vw, 10px);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.imagem1, .imagem2, .imagem3, .imagem4, .imagem5 {
+    width: 96px;
+    height: 58px;
+    margin: 8px 3px;
+    text-align: center;
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0.592) solid 1px;
+}
+
+.imagem1 {
+    background: url(pão.jpg) no-repeat;
+    background-size: cover;
+}
+.imagem2 {
+    background: url(pai.jpg) no-repeat;
+    background-size: cover;
+}
+.imagem3 {
+    background: url(brasil.jpg) no-repeat;
+    background-size: cover;
+}
+.imagem4 {
+    background: url(frozen.jpg) no-repeat;
+    background-size: cover;
+}
+.imagem5 {
+    background: url(soup.jpg) no-repeat;
+    background-size: cover;
 }
