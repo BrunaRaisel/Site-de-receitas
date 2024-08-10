@@ -29,7 +29,7 @@ i {
     margin-left: 12px;
 }
 
-img {
+#logo {
     width: 140px;
      position: relative;
      top: 6px;  
@@ -85,4 +85,18 @@ img {
 .imagem5 {
     background: url(soup.jpg) no-repeat;
     background-size: cover;
+}
+
+/* main config  */
+
+main {
+    margin: auto;
+    margin-top: 80px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;   
+}
+
+.rebeca {
+    width: 95%;
 }
