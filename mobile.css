@@ -9,10 +9,6 @@
     box-sizing: border-box;
 }
 
-body, html {
-    width: 100vw;
-    height: 100vh;
-}
 
 /* cabecalho  */
 header {
@@ -64,15 +60,18 @@ i {
     text-align: center;
     border-radius: 5px;
     border: rgba(255, 255, 255, 0.592) solid 1px;
+    
 }
 
 .imagem1 {
     background: url(pão.jpg) no-repeat;
     background-size: cover;
+    
 }
 .imagem2 {
     background: url(pai.jpg) no-repeat;
     background-size: cover;
+    
 }
 .imagem3 {
     background: url(brasil.jpg) no-repeat;
@@ -100,3 +99,52 @@ main {
 .rebeca {
     width: 95%;
 }
+
+.paragrafo {
+    font-size: 0.7em;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 0.8em;
+}
+h2 {
+    font-size: 0.6em;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.data {
+    font-size: 0.6em;
+    margin: 5px;
+}
+
+/* inicio receitas  */
+
+
+li {
+    margin: 10px;
+    padding: 2px;
+    
+}
+
+h3 {
+    font-size: .8em; 
+    padding: 0;
+	color: #3e7ab9;  
+    
+}
+
+.imgreceita {
+    width: 200px;
+    float: left;
+	margin: 5px;
+       
+}
+
+li a {
+	text-decoration: none;
+}
+
+
+/* inicio do footer  */
