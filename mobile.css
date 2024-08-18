@@ -11,6 +11,7 @@
 
 
 /* cabecalho  */
+
 header {
     width: 100%;
     background-color: blueviolet;
@@ -37,7 +38,7 @@ i {
     padding-top: 12px;
 }
 
-/* nav menu horizontal  */
+/* NAV MENU HORIZONTAL  */
 
 #menu-horizon {
     margin: 8px 3px;
@@ -70,8 +71,7 @@ i {
 }
 .imagem2 {
     background: url(pai.jpg) no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 .imagem3 {
     background: url(brasil.jpg) no-repeat;
@@ -89,7 +89,7 @@ i {
 /* main config  */
 
 main {
-    margin: auto;
+    margin: auto; 
     margin-top: 80px;
     overflow: hidden;
     box-sizing: border-box;
@@ -105,10 +105,14 @@ main {
     margin: 10px;
 }
 
-h1 {
+#post-atigo {
+    margin: 10px;
+}
+
+#post-artigo h1 {
     font-size: 0.8em;
 }
-h2 {
+#post-artigo h2 {
     font-size: 0.6em;
     font-weight: lighter;
     margin: 5px;
@@ -122,13 +126,13 @@ h2 {
 /* inicio receitas  */
 
 
-li {
+#receitas li {
     margin: 10px;
     padding: 2px;
     
 }
 
-h3 {
+#receitas h3 {
     font-size: .8em; 
     padding: 0;
 	color: #3e7ab9;  
@@ -146,5 +150,39 @@ li a {
 	text-decoration: none;
 }
 
+.cor {
+    color: #b11414;
+    
+}
+
+/* inicio div chefs  */
+
+.titlesecsion {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 12px;
+}
+
+#chefs {
+    clear: both;
+}
+
+.perfil-chef {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.rec-chef {
+    width: 180px;
+    margin: 6px;
+}
 
 /* inicio do footer  */
+
+footer {
+    font-size: 0.8em;
+}
+.grid{
+    display: grid;
+}

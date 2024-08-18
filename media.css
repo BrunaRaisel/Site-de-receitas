@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@media screen and (max-width:400px) {
+    .postes{
+        margin-top: 35px;
+        float: left;
+        
+    }
+    .imgreceita {
+        width: 100px;
+    }
+}
+
 @media screen and (min-width: 500px) {
     
 
